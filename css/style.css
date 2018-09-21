@@ -1,0 +1,155 @@
+body {
+  width: 901px;
+  margin: auto;
+}
+
+header {
+  padding: 10px 0px;
+}
+
+header > img {
+  float: left;
+}
+
+nav {
+  text-align: right;
+  position: relative;
+  bottom: 30px;
+}
+
+#spacer {
+  margin-left: 8px;
+}
+
+header h1 {
+  font-family: 'Pacifico', cursive;
+  font-style: italic;
+  font-size: 30px;
+  margin-bottom: 2px;
+}
+
+header p {
+  color: darkgray;
+  /* display: inline-block; */
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main div {
+  background: repeating-linear-gradient(
+    45deg,
+    white,
+    white 2px,
+    rgba(128, 128, 128, 0.4) 2px,
+    rgba(128, 128, 128, 0.4) 3px
+  );
+
+  height: 10px;
+  margin-bottom: 30px;
+}
+hgroup h1 {
+  font-weight: bold;
+  font-family: 'Arial Narrow';
+  font-size: 40px;
+}
+
+hgroup h2 {
+  color: lightgrey;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+#print {
+  position: relative;
+  bottom: 20px;
+  color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+  text-transform: uppercase;
+}
+article p {
+  color: rgb(116, 116, 116);
+  margin-bottom: 1.5em;
+  padding: 0px 7px 0px 0px;
+  text-indent: 30px;
+  font-size: 19px;
+}
+article img {
+  margin-bottom: 1.5em;
+}
+/* main section:nth-child(2) {
+  background-image: url("img/list-bg.png");
+} */
+main section:nth-child(4) {
+  background-image: url('../img/list-bg.png');
+  background-repeat: no-repeat;
+  height: 305px;
+  padding-left: 25px;
+  margin-bottom: 40px;
+}
+ul {
+  display: inline-block;
+  margin: 42px 40px 0px 30px;
+}
+li {
+  font-family: cursive;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+section ul:nth-child(2) {
+  margin-left: 75px;
+}
+section > img {
+  float: left;
+  margin-right: 10px;
+}
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+section p {
+  color: rgb(116, 116, 116);
+  font-size: 19px;
+  display: inline-block;
+  width: 575px;
+}
+button {
+  background: rgb(206, 96, 96);
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-family: 'Arial Narrow';
+  position: relative;
+  bottom: 25px;
+  height: 50px;
+  width: 170px;
+  text-transform: uppercase;
+}
+footer {
+  margin-top: 60px;
+}
+footer div {
+  height: 1px;
+  background: rgba(199, 199, 199, 0.5);
+}
+footer img {
+  background: white;
+  position: relative;
+  top: 20px;
+  margin-left: 50%;
+  padding: 0px 5px;
+  z-index: 1;
+}
+footer p {
+  color: lightgray;
+  line-height: 20px;
+  margin: 30px auto;
+  text-align: center;
+  width: 300px;
+}
